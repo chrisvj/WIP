@@ -25,12 +25,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="resources\startbutton.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
     <Library Include="..\SDL2\lib\x86\SDL2.lib" />
     <Library Include="..\SDL2\lib\x86\SDL2main.lib" />
+    <Library Include="..\SDL2\lib\x86\SDL2_image.lib" />
   </ItemGroup>
 </Project>
